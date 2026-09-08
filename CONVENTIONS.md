@@ -138,3 +138,11 @@ Never a key in source. Never a key in a screenshot.
 - [ ] Pinned SDK versions still install (`npm view openai version`, `npm view zod version`, `npm view vitest version`, `npm view typescript version`, `npm view @types/node version`, `npm view tsx version` — update the table and the Project Skeleton `package.json` together)
 - [ ] Every lab runs on a clean machine (fresh `pnpm install` from the skeleton above, no cached global state)
 - [ ] Pricing figures used in Week 3 still current
+- [ ] **The student repository republished.** Any change above touches student-facing
+      material, and the student repo is generated — it does not update itself. Run
+      `bash "Evening Bootcamp Series/scripts/publish-student-repo.sh"` and confirm the
+      commit it creates names the current curriculum commit. A cohort working from a
+      stale mirror is the failure this checklist item exists to prevent.
+- [ ] **Every enrolled student's GitHub invitation accepted**, not merely sent. The
+      student repository is private and B0's first step is cloning it, so an unaccepted
+      invite blocks a student at the very start of their pre-work.

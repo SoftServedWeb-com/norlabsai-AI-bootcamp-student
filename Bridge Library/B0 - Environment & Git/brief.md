@@ -142,14 +142,21 @@ formality — this is the one habit in B0 that costs real money if you skip it.
 ## 5. Get the course materials
 
 Everything this series hands you — the qualifier you're about to do, all six of
-Bootcamp 1's labs, the reading — lives in one curriculum repository. **Your enrolment
-email has its clone URL.** Clone it now, somewhere sensible and permanent: run
-`git clone` followed by that URL, exactly as it was sent to you.
+Bootcamp 1's labs, the reading — lives in one **student materials repository**. Your
+enrolment email has its clone URL and a GitHub invitation. Clone it now, somewhere
+sensible and permanent: run `git clone` followed by that URL, exactly as it was sent
+to you.
 
-If you can't find the email, ask your facilitator for the link before you go any
-further — nothing after this point works without it. This is the only copy of the
-materials; there is no zip, and there is no per-lab download. Keep the clone: every
-week's labs come out of the same folder.
+**Accept the GitHub invitation first.** The repository is private, so until you've
+accepted, `git clone` fails — and it fails with an authentication error that looks
+like a problem with *your* credentials rather than a missing invite. If the clone is
+refused, check your email for the invitation before you change anything about your
+git setup.
+
+If you can't find the email at all, ask your facilitator before you go any further —
+nothing after this point works without it. This is the only copy of the materials;
+there is no zip, and there is no per-lab download. Keep the clone: every week's labs
+come out of the same folder.
 
 Windows students, one practical note: clone somewhere short, like `C:\dev\`. A corporate
 OneDrive path several folders deep can push the full path past what some tooling handles,

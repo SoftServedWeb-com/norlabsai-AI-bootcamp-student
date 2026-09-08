@@ -47,11 +47,15 @@ seventh bootcamp later costs a configuration line here, not a new course.
 
 ## The qualifier
 
-Each bridge configuration ends in one small repo: clone it, make the failing tests pass,
-submit the link. It's objective and cheap to grade, and it doubles as your first
-portfolio commit. Bridge and qualifier are due **before Evening 1**, hard deadline — same
-for everyone, regardless of where they enter. B0's qualifier lives at
-[`B0 - Environment & Git/qualifier/`](<B0 - Environment & Git/qualifier/>).
+Each bridge configuration ends in one small project you already have — it ships inside
+this repository, so cloning this repo is all it takes to get it. Make the failing tests
+pass, push it to a repository of your own, and submit that link. It's objective and cheap
+to grade, and it doubles as your first portfolio commit. Bridge and qualifier are due
+**before Evening 1**, hard deadline — same for everyone, regardless of where they enter.
+
+B0's qualifier lives at
+[`B0 - Environment & Git/qualifier/`](<B0 - Environment & Git/qualifier/>), and its own
+README walks you through copying it out into a repository of your own before you push.
 
 ## The portfolio review (BC5 and BC6 only)
 
