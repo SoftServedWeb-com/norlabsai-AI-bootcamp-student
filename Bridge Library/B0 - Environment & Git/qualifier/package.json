@@ -1,0 +1,11 @@
+{
+  "name": "b0-qualifier",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "vitest run" },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "vitest": "4.1.11",
+    "@types/node": "26.4.1"
+  }
+}

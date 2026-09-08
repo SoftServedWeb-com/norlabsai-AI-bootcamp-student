@@ -1,0 +1,22 @@
+{
+  "name": "w2-structured-output",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "classify": "tsx --env-file=.env src/classify.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "openai": "7.9.0",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "26.4.1",
+    "tsx": "4.23.13",
+    "typescript": "7.0.2"
+  }
+}
